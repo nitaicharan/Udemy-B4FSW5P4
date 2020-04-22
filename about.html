@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Bootstrap Theme</title>
+</head>
+
+<body>
+    <!-- START HERE -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Glozzom</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"> <span
+                    class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"> <a href="index.html" class="nav-link">Home</a> </li>
+                    <li class="nav-item active"><a href="about.html" class="nav-link">About Us</a> </li>
+                    <li class="nav-item"><a href="services.html" class="nav-link">Services</a> </li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a> </li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <header id="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 m-auto text-center">
+                    <h1>About Us</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, velit.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>What We Do</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi ullam illo, dolorum,
+                        repellat
+                        ex officiis ut expedita ad, accusantium minus cupiditate rem asperiores. Deserunt libero itaque
+                        consectetur, sint, reiciendis est expedita reprehenderit fuga iusto quod animi. Illum doloribus
+                        officia pariatur, provident voluptatum minus laborum ipsa! Dolorum numquam iste iure culpa.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi ullam illo, dolorum,
+                        repellat
+                        ex officiis ut expedita ad, accusantium minus cupiditate rem asperiores. Deserunt libero itaque
+                        consectetur, sint, reiciendis est expedita reprehenderit fuga iusto quod animi. Illum doloribus
+                        officia pariatur, provident voluptatum minus laborum ipsa! Dolorum numquam iste iure culpa.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://source.unsplash.com/random/700x700/?technology" alt=""
+                        class="img-fluir rounded-circle d-none d-md-block about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="node_modules/jquery/dist/jquery.min.js" crossorigin="anonymous"></script>
+    <!-- Popper -->
+    <script src="node_modules/popper.js/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    <script>
+        // Get the current year for the copyright
+        $('#year').text(new Date().getFullYear());
+    </script>
+</body>
+
+</html>
