@@ -13,7 +13,7 @@
 <!--[![](Udemy-B4FSW5P4.png)](https://nitaicharan.github.io/Udemy-B4FSW5P4/)-->
 <a href="https://nitaicharan.github.io/Udemy-B4FSW5P4">
   <p align="center">
-    <img src="PREVIEW.gif">
+    <img src="PREVIEW.png">
   </p>
 </a>
 
