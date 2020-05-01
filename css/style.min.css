@@ -77,6 +77,10 @@ body {
 #faq .card-header {
   background: #333; }
 
+#main-footer {
+  background-color: black;
+  color: white; }
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
